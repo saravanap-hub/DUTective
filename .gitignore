@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+uvmgen-env/
+
+# DUTective run output
+dutective_out/
+dutective_out_buggy/
+attempts/
+run_report.json
+
+# Simulation output
+sim_build/
+results.xml
+*.vcd
+*.fst
+*.gtkw
+a.out
+sim
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
